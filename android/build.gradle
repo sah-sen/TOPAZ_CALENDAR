@@ -1,6 +1,7 @@
 buildscript {
     ext.kotlin_version = '1.3.50'
     repositories {
+     //   google()  // Google's Maven repository
         google()
         jcenter()
         maven {
@@ -9,7 +10,8 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.google.gms:google-services:4.3.3'
+        classpath 'com.google.gms:google-services:4.3.10'
+    //    classpath 'com.google.gms:google-services:4.3.3' old version
         classpath 'com.android.tools.build:gradle:4.0.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath 'com.google.firebase:firebase-crashlytics-gradle:2.2.0'
@@ -18,6 +20,7 @@ buildscript {
 
 allprojects {
     repositories {
+    //    google()  // Google's Maven repository
         google()
         jcenter()
     }

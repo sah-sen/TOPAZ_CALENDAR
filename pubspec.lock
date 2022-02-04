@@ -39,7 +39,7 @@ packages:
   change_app_package_name:
     dependency: "direct dev"
     description:
-      name: change_app_package_name
+      name: topaz_app_fyp
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.2"
