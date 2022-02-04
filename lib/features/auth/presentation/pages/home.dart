@@ -1,8 +1,8 @@
-import 'package:firebasestarter/core/presentation/providers/providers.dart';
+import 'package:topazapp/core/presentation/providers/providers.dart';
 import 'package:flutter/material.dart';
-import 'package:firebasestarter/core/presentation/res/analytics.dart';
-import 'package:firebasestarter/features/home/presentation/pages/home.dart';
-import 'package:firebasestarter/features/onboarding/presentation/pages/intro.dart';
+import 'package:topazapp/core/presentation/res/analytics.dart';
+import 'package:topazapp/features/home/presentation/pages/home.dart';
+import 'package:topazapp/features/onboarding/presentation/pages/intro.dart';
 import '../../data/model/user_repository.dart';
 import './splash.dart';
 import './login.dart';

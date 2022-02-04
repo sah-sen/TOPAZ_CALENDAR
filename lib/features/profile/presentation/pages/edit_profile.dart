@@ -4,12 +4,12 @@ import 'package:firebase_helpers/firebase_helpers.dart';
 import 'package:flutter/material.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:firebasestarter/core/data/res/data_constants.dart';
-import 'package:firebasestarter/features/profile/data/model/user.dart';
-import 'package:firebasestarter/features/profile/data/model/user_field.dart';
-import 'package:firebasestarter/features/profile/data/service/user_db_service.dart';
-import 'package:firebasestarter/features/profile/presentation/widgets/avatar.dart';
-import 'package:firebasestarter/generated/l10n.dart';
+import 'package:topazapp/core/data/res/data_constants.dart';
+import 'package:topazapp/features/profile/data/model/user.dart';
+import 'package:topazapp/features/profile/data/model/user_field.dart';
+import 'package:topazapp/features/profile/data/service/user_db_service.dart';
+import 'package:topazapp/features/profile/presentation/widgets/avatar.dart';
+import 'package:topazapp/generated/l10n.dart';
 import 'package:path/path.dart' as Path;
 
 class EditProfile extends StatefulWidget {
@@ -124,8 +124,9 @@ class _EditProfileState extends State<EditProfile> {
             content: Column(
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
-                ...ListTile.divideTiles(color: Theme.of(context).dividerColor,tiles: [
-
+                ...ListTile.divideTiles(
+                  color: Theme.of(context).dividerColor,
+                  tiles: [
                     ListTile(
                       onTap: () {
                         getImage(ImageSource.camera);
@@ -138,7 +139,8 @@ class _EditProfileState extends State<EditProfile> {
                       },
                       title: Text(S.of(context).pickFromGalleryButtonLabel),
                     ),
-                ],),
+                  ],
+                ),
                 FlatButton(
                   onPressed: () {
                     Navigator.pop(context);
@@ -155,9 +157,8 @@ class _EditProfileState extends State<EditProfile> {
   }
 
   Future getImage(ImageSource source) async {
-    var image = await ImagePicker.pickImage(
-        source: source);
-    if(image == null) return;
+    var image = await ImagePicker.pickImage(source: source);
+    if (image == null) return;
     setState(() {
       _image = image;
       _cropImage();

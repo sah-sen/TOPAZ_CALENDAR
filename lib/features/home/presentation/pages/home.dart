@@ -1,6 +1,6 @@
-import 'package:firebasestarter/core/presentation/providers/providers.dart';
+import 'package:topazapp/core/presentation/providers/providers.dart';
 import 'package:flutter/material.dart';
-import 'package:firebasestarter/core/presentation/res/routes.dart';
+import 'package:topazapp/core/presentation/res/routes.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class HomePage extends StatefulWidget {

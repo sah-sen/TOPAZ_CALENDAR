@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:firebasestarter/core/presentation/res/colors.dart';
-import 'package:firebasestarter/core/presentation/res/sizes.dart';
+import 'package:topazapp/core/presentation/res/colors.dart';
+import 'package:topazapp/core/presentation/res/sizes.dart';
 
 class AppThemes {
   static BuildContext context;

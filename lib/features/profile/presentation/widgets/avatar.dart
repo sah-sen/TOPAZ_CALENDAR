@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:firebasestarter/core/presentation/res/colors.dart';
+import 'package:topazapp/core/presentation/res/colors.dart';
 
 class Avatar extends StatelessWidget {
   final ImageProvider<dynamic> image;
@@ -33,19 +33,19 @@ class Avatar extends StatelessWidget {
             backgroundImage: image,
           ),
         ),
-        if(showButton)
-        Positioned(
-          bottom: 0,
-          right: -30,
-          child: MaterialButton(
-            elevation: 1,
-            color: Colors.white,
-            shape: CircleBorder(),
-            child: Icon(Icons.camera_alt),
-            padding: const EdgeInsets.all(4.0),
-            onPressed: onButtonPressed,
-          ),
-        )
+        if (showButton)
+          Positioned(
+            bottom: 0,
+            right: -30,
+            child: MaterialButton(
+              elevation: 1,
+              color: Colors.white,
+              shape: CircleBorder(),
+              child: Icon(Icons.camera_alt),
+              padding: const EdgeInsets.all(4.0),
+              onPressed: onButtonPressed,
+            ),
+          )
       ],
     );
   }

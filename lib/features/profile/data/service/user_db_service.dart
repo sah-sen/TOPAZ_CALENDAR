@@ -1,8 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_helpers/firebase_helpers.dart';
-import 'package:firebasestarter/core/data/res/data_constants.dart';
-import 'package:firebasestarter/features/profile/data/model/device.dart';
-import 'package:firebasestarter/features/profile/data/model/user.dart';
+import 'package:topazapp/core/data/res/data_constants.dart';
+import 'package:topazapp/features/profile/data/model/device.dart';
+import 'package:topazapp/features/profile/data/model/user.dart';
 
 DatabaseService<UserModel> userDBS = DatabaseService<UserModel>(
     AppDBConstants.usersCollection,

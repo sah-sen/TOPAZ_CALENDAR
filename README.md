@@ -39,8 +39,8 @@ How to start your project based on this.
 1. Clone this repository locally. The folder structure is somewhat based on clean code architecture
 2. Delete `.git` folder to clear git history
 3. Using `change_app_package_name` package change the package name to whatever you want your package name to be
-4. For changing iOS package name use the text editors Find and Replace in whole project folder where you need to find `com.popupbits.firebasestarter` and with the package name you want
-5. Using the same Find and replace in whole project folder search for `firebasestarter` (package name for dart/flutter project) and replace it with your own suitable name. (check the flutter package naming standards for acceptable format)
+4. For changing iOS package name use the text editors Find and Replace in whole project folder where you need to find `com.popupbits.topazapp` and with the package name you want
+5. Using the same Find and replace in whole project folder search for `topazapp` (package name for dart/flutter project) and replace it with your own suitable name. (check the flutter package naming standards for acceptable format)
 6. Using the same Find and replace in whole project folder search for `Firebase Starter` (display name, launcher name) and replace it with your own suitable name for your app
 7. Copy `google-services.json` for dev firebase project in `android/app/src/dev/` and prod firebase project in `android/app/src/prod/`
 8. Copy `GoogleService-Info.plist` for dev firebase project in `ios/Runner/firebase/dev/` and prod firebase project in `ios/Runner/firebase/prod`

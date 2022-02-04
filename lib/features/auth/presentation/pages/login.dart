@@ -1,7 +1,7 @@
-import 'package:firebasestarter/core/presentation/providers/providers.dart';
+import 'package:topazapp/core/presentation/providers/providers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_auth_buttons/flutter_auth_buttons.dart';
-import 'package:firebasestarter/generated/l10n.dart';
+import 'package:topazapp/generated/l10n.dart';
 import '../widgets/auth_dialog.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

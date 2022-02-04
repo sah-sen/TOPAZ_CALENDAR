@@ -1,4 +1,4 @@
-package com.popupbits.firebasestarter
+package com.popupbits.topazapp
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

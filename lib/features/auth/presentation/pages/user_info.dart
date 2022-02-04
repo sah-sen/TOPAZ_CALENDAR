@@ -1,8 +1,8 @@
-import 'package:firebasestarter/core/presentation/providers/providers.dart';
+import 'package:topazapp/core/presentation/providers/providers.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebasestarter/core/presentation/res/analytics.dart';
-import 'package:firebasestarter/generated/l10n.dart';
+import 'package:topazapp/core/presentation/res/analytics.dart';
+import 'package:topazapp/generated/l10n.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class UserInfoPage extends StatelessWidget {

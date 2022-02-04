@@ -1,6 +1,6 @@
-import 'package:firebasestarter/core/presentation/providers/providers.dart';
+import 'package:topazapp/core/presentation/providers/providers.dart';
 import 'package:flutter/material.dart';
-import 'package:firebasestarter/generated/l10n.dart';
+import 'package:topazapp/generated/l10n.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../data/model/user_repository.dart';
 

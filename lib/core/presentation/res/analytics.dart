@@ -1,7 +1,7 @@
 import 'package:firebase_analytics/firebase_analytics.dart';
-import 'package:firebasestarter/core/presentation/providers/providers.dart';
+import 'package:topazapp/core/presentation/providers/providers.dart';
 import 'package:flutter/widgets.dart';
-import 'package:firebasestarter/core/presentation/res/routes.dart';
+import 'package:topazapp/core/presentation/res/routes.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class AppAnalyticsEvents {
