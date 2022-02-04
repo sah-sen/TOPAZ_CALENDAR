@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Firebase starter'),
+        title: Text('TOPAZ'),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.person),
